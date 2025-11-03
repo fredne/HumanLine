@@ -425,7 +425,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 7.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -656,13 +656,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832980153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -0.68514, z: 0}
+  m_LocalRotation: {x: 0.010321626, y: -0.00168858, z: 0.85429335, w: 0.5196861}
+  m_LocalPosition: {x: -8.65, y: -0.68514, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.78, y: 0.91, z: 117.38}
 --- !u!1001 &926129277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -882,6 +882,12 @@ MonoBehaviour:
   moveInterval: 0.2
   speed: 1
   emotionState: 0
+  faceSprites:
+  - {fileID: 21300000, guid: 0ea4fae9b2a79a64cbbde17f7c6ac0ea, type: 3}
+  - {fileID: 21300000, guid: c3842707e787a90468c819c360e290be, type: 3}
+  - {fileID: 21300000, guid: e8ebf64334a18ec43beb82b8d43704de, type: 3}
+  - {fileID: 21300000, guid: 487d225eff2e46143841a385590c7ff6, type: 3}
+  - {fileID: 21300000, guid: 3252673f447f7a64981fec7db8ebcf92, type: 3}
 --- !u!4 &1439577005
 Transform:
   m_ObjectHideFlags: 0
@@ -1002,9 +1008,12 @@ MonoBehaviour:
   player: {fileID: 1439577003}
   generator: {fileID: 171097819}
   floor: {fileID: 1274434208}
+  colorDefault: {r: 0, g: 0, b: 0, a: 0}
+  colorDelight: {r: 0, g: 0, b: 0, a: 0}
   colorAngry: {r: 0, g: 0, b: 0, a: 0}
   colorSad: {r: 0, g: 0, b: 0, a: 0}
-  colorDelight: {r: 0, g: 0, b: 0, a: 0}
+  colorDead: {r: 0, g: 0, b: 0, a: 0}
+  mapSize: {x: 10, y: 10}
 --- !u!4 &1774403294
 Transform:
   m_ObjectHideFlags: 0
